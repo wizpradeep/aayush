@@ -47,6 +47,10 @@
   flex-direction: column;
   justify-content: space-evenly;
 }
+.nav-item a {
+  text-decoration: none;
+  color: red;
+}
 .nav-item li {
   font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
@@ -152,7 +156,7 @@
   .nav-item li {
     width: 60px;
     border-radius: 20px;
-    font-size: 10px;
+    font-size: 14px;
     padding: 5px;
   }
   .right-container-name {
@@ -186,10 +190,11 @@
     flex-direction: row;
     justify-content: space-evenly;
   }
+
   .nav-item li {
     width: 50px;
     border-radius: 20px;
-    font-size: 10px;
+    font-size: 13px;
     padding: 1px;
   }
   .right-container-name {
@@ -197,7 +202,7 @@
     margin: 15px auto;
   }
 }
-@media (max-width: 280px) {
+@media (max-width: 279px) {
   * {
     display: none;
   }
