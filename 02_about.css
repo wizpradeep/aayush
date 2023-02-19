@@ -1,0 +1,77 @@
+/* .about-me-text {
+  display: inline-block;
+  width: 80%;
+  background-color: red;
+  border: solid black 2px;
+  margin: auto;
+} */
+.about-me-text {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color: red;
+  border: solid black 2px;
+  margin: auto;
+  padding: 20px 0px;
+}
+.about-me-text h1 {
+  display: inline-block;
+  color: blue;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.about-me {
+  margin: 10px 0px;
+}
+.about-me-text h2 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-size: 20px;
+  padding: 0px 15px;
+}
+.about-me-text p {
+  padding: 0px 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+}
+@media (max-width: 720px) and (min-width: 480px) {
+  .about-me-text h1 {
+    font-size: 20;
+  }
+  .about-me-text h2 {
+    font-size: 18;
+  }
+  .about-me-text p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .about-me-text h1 {
+    font-size: 20px;
+  }
+  .about-me-text h2 {
+    font-size: 15px;
+  }
+  .about-me-text p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 320px) and (min-width: 280px) {
+  .about-me-text h1 {
+    font-size: 17px;
+  }
+  .about-me-text h2 {
+    font-size: 12px;
+  }
+  .about-me-text p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 320px) {
+  * {
+    display: none;
+  }
+}
