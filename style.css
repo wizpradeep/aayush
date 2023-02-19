@@ -2,6 +2,25 @@
   margin: 0%;
   padding: 0%;
 }
+.watch-youtube {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+.watch-me {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  padding: 5px;
+}
 .container {
   border: 2px solid black;
   margin: 0px;
@@ -78,7 +97,6 @@
     width: 95%;
   }
   .left-container {
-    order: 2;
     width: 95%;
     height: 100px;
     justify-self: center;
@@ -119,7 +137,6 @@
     width: 95%;
   }
   .left-container {
-    order: 2;
     width: 95%;
     height: 40px;
     justify-self: center;
@@ -157,7 +174,6 @@
   }
 
   .left-container {
-    order: 2;
     width: 90%;
     height: 35px;
     justify-self: center;

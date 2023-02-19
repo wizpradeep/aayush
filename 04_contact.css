@@ -33,6 +33,9 @@
   font-style: italic;
   padding: 10px;
 }
+a {
+  text-decoration: none;
+}
 
 @media (max-width: 720px) and (min-width: 480px) {
   .connect-message {
@@ -44,12 +47,16 @@
   }
 }
 @media (max-width: 480px) and (min-width: 320px) {
+  .social-media {
+    flex-direction: column;
+    align-items: center;
+  }
   .connect-message {
     font-size: 20px;
   }
   .social-media a img {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
   }
 }
 @media (max-width: 320px) and (min-width: 280px) {
