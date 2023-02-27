@@ -68,7 +68,6 @@ hr {
   text-transform: lowercase;
   color: blue;
 }
-
 @media (max-width: 720px) and (min-width: 480px) {
   .connect-message {
     font-size: 25px;
@@ -88,6 +87,7 @@ hr {
   }
   .social-media a img {
     height: 80px;
+
     width: 80px;
   }
   .developer p {
